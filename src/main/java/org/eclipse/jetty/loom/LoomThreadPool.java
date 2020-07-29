@@ -43,14 +43,14 @@ public class LoomThreadPool extends AbstractLifeCycle implements ThreadPool
     public int getThreads()
     {
         // TODO: always report a value?
-        return 0;
+        return Integer.MAX_VALUE;
     }
 
     @Override
     public int getIdleThreads()
     {
         // TODO: always report available?
-        return 0;
+        return Integer.MAX_VALUE;
     }
 
     @Override
